@@ -17,6 +17,8 @@ import { HeaderUserComponent } from './components/header-user/header-user.compon
   ],
   exports: [
     SideBarComponent,
+    MediaPlayerComponent,
+    HeaderUserComponent,
   ]
 
 })

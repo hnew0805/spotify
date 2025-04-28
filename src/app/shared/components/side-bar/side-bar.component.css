@@ -48,3 +48,6 @@
 .side-bar__list li {
   cursor: pointer;
 }
+.side-bar__list ul li {
+  cursor: pointer;
+}

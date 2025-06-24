@@ -5,13 +5,15 @@ import { AuthPageComponent } from './pages/auth-page/auth-page.component';
 
 const routes: Routes = [
   {
-    path: 'login',
+    path: 'login', //TODO http://localhost:4200/auth/login
     component: AuthPageComponent
   },
   {
     path: '**',
-    redirectTo:'/auth/login'
+    redirectTo: '/auth/login'
   }
+
+
 ];
 
 

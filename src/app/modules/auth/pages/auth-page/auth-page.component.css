@@ -104,6 +104,10 @@
   background-color: var(--color-1);
 }
 
-input.ng-invalid.ng-touched {
+ input.ng-invalid.ng-touched {
   border: solid 2px red !important
+}
+
+input.ng-valid.ng-touched {
+  border: solid 2px green !important
 }
